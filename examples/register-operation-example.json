@@ -1,0 +1,20 @@
+{
+  "api_id": "wso2-api-uuid-from-your-environment",
+  "api_name": "ExampleAPI",
+  "api_version": "1.0.0",
+  "publisher_subject": "publisher-subject-from-wso2",
+  "operation_id": "get-example",
+  "http_method": "GET",
+  "resource_path": "/example",
+  "upstream_base_url": "http://127.0.0.1:9000/",
+  "upstream_path": "example",
+  "allowed_fields": [
+    "name",
+    "status"
+  ],
+  "allowed_purposes": [
+    "verification"
+  ],
+  "max_duration_days": 30,
+  "enabled": true
+}
